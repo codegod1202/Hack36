@@ -10,7 +10,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Home = () => {
     return (
         <div className="App">
-        <NavBar />
         <Banner />
         <Features />
         <Projects />

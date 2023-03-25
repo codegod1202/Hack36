@@ -12,21 +12,21 @@ export default function MyForm() {
     console.log(formJson);
   }
   return (
-    <form className="form" method="post" onSubmit={handleSubmit}>
+    <form className="form" onSubmit={handleSubmit}>
     <h3>CREATE AN ACCOUNT</h3>
       <label className="form-label">
         Username : <br></br>
-        <input name="username" />
+        <input type="text" name="username" />
       </label>
       <hr />
-      <label className="form-label">
+      <label type="email" className="form-label">
         Email: <br></br>
         <input name="email" />
       </label>
       <hr />
       <label className="form-label">
         password: <br></br>
-        <input name="email" />
+        <input type="password" name="email" />
       </label>
       <br></br>
       <br></br>

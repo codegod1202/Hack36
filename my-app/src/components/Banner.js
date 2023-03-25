@@ -4,6 +4,7 @@ import headerImg from "./header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
+import { Link } from "react-router-dom";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -58,7 +59,7 @@ export const Banner = () => {
                 <span className="tagline">Become a happier you</span>
                 <h1>{`Hi, I'm `} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "okay!", "good!", "well!" ]'><span className="wrap">{text}</span></span></h1>
                   <p>........ WE CARE FOR YOU ........</p>
-                  <button onClick={() => console.log('join us')}> Join Us <ArrowRightCircle size={25} /></button>
+                  <button><Link to="/signUp" target="/signUp">Join Us</Link><ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
