@@ -1,20 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-import { NavBar } from './components/NavBar';  
-import { Banner } from './components/Banner.js';
-import { Features } from './components/Features.js';
-import { Projects } from './components/Projects.js';
-import { Footer } from './components/footer.js'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css";
+import Home from "./Home.jsx";
+import signUp from "./components/signUp";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+}from "react-router-dom";
+
+
 function App() {
   return (
-    <div className="App">
-       <NavBar/>   
-       <Banner />
-       <Features />
-       <Projects />
-       <Footer />
-    </div>
+    <>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/signUp" component={signUp} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
