@@ -14,15 +14,9 @@ export default function MyForm() {
   }
   return (
     <form className="form" onSubmit={handleSubmit}>
-    <h3>CREATE AN ACCOUNT</h3>
       <label className="form-label">
         Username : <br></br>
         <input type="text" name="username" />
-      </label>
-      <hr />
-      <label type="email" className="form-label">
-        Email: <br></br>
-        <input name="email" />
       </label>
       <hr />
       <label className="form-label">
@@ -31,9 +25,7 @@ export default function MyForm() {
       </label>
       <br></br>
       <br></br>
-      <button type="submit">Submit</button>
-      <p>Already have an account ?</p>
-      <Link to="/login" target="/login">login</Link>
+      <button type="submit">Login</button>
     </form>
   );
 }
