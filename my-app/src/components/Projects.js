@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "/Users/ashishatulsian/Desktop/project/Hack36/my-app/src/assets/images/1-square-fill.svg";
-import projImg2 from "/Users/ashishatulsian/Desktop/project/Hack36/my-app/src/assets/images/2-square-fill.svg";
-import projImg3 from "/Users/ashishatulsian/Desktop/project/Hack36/my-app/src/assets/images/3-square-fill.svg";
+import projImg1 from "./1-square-fill.svg";
+import projImg2 from "./2-square-fill.svg";
+import projImg3 from "./3-square-fill.svg";
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';

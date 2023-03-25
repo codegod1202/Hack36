@@ -1,11 +1,11 @@
-import meter1 from "/Users/ashishatulsian/Desktop/project/Hack36/my-app/src/assets/images/1-square-fill.svg";
-import meter2 from "/Users/ashishatulsian/Desktop/project/Hack36/my-app/src/assets/images/2-square-fill.svg";
-import meter3 from "/Users/ashishatulsian/Desktop/project/Hack36/my-app/src/assets/images/3-square-fill.svg";
+import meter1 from "./1-square-fill.svg";
+import meter2 from "./2-square-fill.svg";
+import meter3 from "./3-square-fill.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "/Users/ashishatulsian/Desktop/project/Hack36/my-app/src/assets/images/4-square-fill.svg";
-import arrow2 from "/Users/ashishatulsian/Desktop/project/Hack36/my-app/src/assets/images/5-square-fill.svg";
-import colorSharp from "/Users/ashishatulsian/Desktop/project/Hack36/my-app/src/assets/images/banner-bg.png";
+import arrow1 from "./4-square-fill.svg";
+import arrow2 from "./5-square-fill.svg";
+import colorSharp from "./banner-bg.png";
 
 export const Features = () => {
   const responsive = {

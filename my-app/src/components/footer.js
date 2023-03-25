@@ -1,8 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
-import logo from "/Users/ashishatulsian/Desktop/project/Hack36/my-app/src/components/logo.svg";
-import navIcon1 from "/Users/ashishatulsian/Desktop/project/Hack36/my-app/src/assets/images/1-square-fill.svg";
-import navIcon2 from "/Users/ashishatulsian/Desktop/project/Hack36/my-app/src/assets/images/2-square-fill.svg";
-import navIcon3 from "/Users/ashishatulsian/Desktop/project/Hack36/my-app/src/assets/images/3-square-fill.svg";
+import logo from "./logo.svg";
+import navIcon1 from "./1-square-fill.svg";
+import navIcon2 from "./2-square-fill.svg";
+import navIcon3 from "./3-square-fill.svg";
 
 export const Footer = () => {
   return (
