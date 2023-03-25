@@ -1,20 +1,22 @@
 body{
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #E7747C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E7747C, #FFE2E4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E7747C, #FFE2E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .form{
+    /* margin-top: 500px; */
     background-color: white;
     border-radius: 5px;
-    width: 550px;
-    margin: 20px auto;
+    width: 350px;
+    margin: 170px auto;
     padding: 20px;
+    text-align: center;
     /* height: 600px; */
 }
 
 .form-body{
-    text-align: left;
+    text-align: center;
     padding: 20px 10px;
 }
 
@@ -27,9 +29,18 @@ body{
 }
 
 .form_input{
-    width: 60%;
+    width: 80%;
 }
 
 .footer{
     text-align: center;
+}
+
+button
+{
+    background-color: #f39ea3;
+    color: #0c0c0c;
+    padding: 5px;
+    border-radius: 5px;
+    width: 60%;
 }
