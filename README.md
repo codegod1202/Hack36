@@ -18,3 +18,7 @@ Steps to run the app.
   
 3. open blog folder and run the command "node server.js"
   . another host opens i.e. localhost:2000
+  
+  PPT-LINK: https://drive.google.com/drive/folders/1mmeYoge0PVa1Ucvo2sJn0T1ItM9HMVp4?usp=sharing
+
+
