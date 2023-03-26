@@ -10,4 +10,5 @@ Steps to run the app.
 2. open the chat folder and run the command "node server.js"
   . chat app runs on local host 5000
   
-3. open blog folder and run the command "server.js"
+3. open blog folder and run the command "node server.js"
+  . another host opens i.e. localhost:2000
