@@ -1,5 +1,11 @@
 # Hack36
 
+TeamBlack:
+  1.) Sarthak Aggarwal
+  2.) Ashisha Tulsian
+  3.) Isha Vishwakarma
+  4.) Priyanshu
+
 Steps to run the app.
 
 1. open the folder front-branch
