@@ -22,4 +22,7 @@ Steps to run the app.
   PPT-LINK: https://drive.google.com/drive/folders/1mmeYoge0PVa1Ucvo2sJn0T1ItM9HMVp4?usp=sharing
   
   Demo-Video Link : https://drive.google.com/drive/folders/1KmZZiAp9eU3m4ITUYZbVZDVnsFKoRSXT?usp=share_link
+  
+  ![image](https://user-images.githubusercontent.com/76030085/227754188-d76c654d-dcb7-4947-ab86-5f1b3a604b10.png)
+
 
